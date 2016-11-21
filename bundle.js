@@ -212,7 +212,7 @@ function portfolioComponent () {
       yo.update(element, template())
     }
  		function openNewTab() {
-    var url = "https://djape48.github.io/kviz"
+    var url = "https://pabloshabac.github.io/kviz"
     var win = window.open(url, '_blank')
     win.focus()
   }
