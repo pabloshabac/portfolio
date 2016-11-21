@@ -9,7 +9,7 @@ var links = ['https://fonts.googleapis.com/css?family=Bungee+Inline',
             'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'
             ]
 var font = yo`<link href=$links[0] rel="stylesheet" type='text/css'>`
-var fontAwesome = yo`<link href=${links[1]} rel='stylesheet' type='text/css'>`
+var fontAwesome = yo`<link href=${links[1]} rel='staylesheet' type='text/css'>`
 document.head.appendChild(font)
 document.head.appendChild(fontAwesome)
 

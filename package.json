@@ -7,8 +7,16 @@
     "start": "watchify index.js -p [ browserify-livereload --host 127.0.0.1 --port 1337 ] -o bundle.js -dv",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloshabac/portfolio.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloshabac/portfolio/issues"
+  },
+  "homepage": "https://github.com/pabloshabac/portfolio#readme",
   "dependencies": {
     "regl": "^1.3.0"
   },
