@@ -9,7 +9,7 @@ var links = ['https://fonts.googleapis.com/css?family=Bungee+Inline',
             'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'
             ]
 var font = yo`<link href=$links[0] rel="stylesheet" type='text/css'>`
-var fontAwesome = yo`<link href=${links[1]} rel='staylesheet' type='text/css'>`
+var fontAwesome = yo`<link href=${links[1]} rel='stylesheet' type='text/css'>`
 document.head.appendChild(font)
 document.head.appendChild(fontAwesome)
 
@@ -152,14 +152,10 @@ function portfolioComponent () {
       <div class="${css.portfolio}">
         <div class="${css.portfolioItem}">
           <div class="${css.portfolioTitle}">
-            Portfolio: Moj kviz
+            Portfolio: My Quiz
           </div>
           <div class="${css.portfolioBody}">
-            Moj kviz je kviz aplikacija gde korisnici odgovaraju
-            na pitanja i porede svoje odgovore sa
-            drugima korisnicima.
-            Cuva sve odgovore u bazi podataka i omogucava
-            administratoru pregledanje svih odgovora.
+            My quiz application
            </div>
         </div>
       </div>
@@ -181,11 +177,7 @@ function portfolioComponent () {
               Portfolio: Moj kviz
             </div>
             <div class="${css.portfolioBody_isHover}">
-           Moj kviz je kviz aplikacija gde korisnici odgovaraju
-            na pitanja i porede svoje odgovore sa
-            drugima korisnicima.
-            Cuva sve odgovore u bazi podataka i omogucava
-            administratoru pregledanje svih odgovora.
+           My quiz application
              </div>
           </div>
         </div>
@@ -204,7 +196,7 @@ function portfolioComponent () {
       yo.update(element, template())
     }
  		function openNewTab() {
-    var url = "https://djape48.github.io/kviz"
+    var url = "https://pabloshabac.github.io/quiz"
     var win = window.open(url, '_blank')
     win.focus()
   }
