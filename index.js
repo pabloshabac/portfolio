@@ -174,7 +174,7 @@ function portfolioComponent () {
         <div class="${css.portfolio}">
           <div class="${css.portfolioItem_isHover}">
             <div class="${css.portfolioTitle_isHover}">
-              Portfolio: Moj kviz
+              Portfolio: My Quiz
             </div>
             <div class="${css.portfolioBody_isHover}">
            My quiz application
@@ -196,7 +196,7 @@ function portfolioComponent () {
       yo.update(element, template())
     }
  		function openNewTab() {
-    var url = "https://pabloshabac.github.io/quiz"
+    var url = "https://djape48.github.io/kviz"
     var win = window.open(url, '_blank')
     win.focus()
   }
